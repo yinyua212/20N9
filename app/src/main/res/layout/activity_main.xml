@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    tools:context=".activity.MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewPager"
+        android:layout_weight="8"
+        android:background="@drawable/romance5"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/browser_actions_bg_grey"
+        app:tabTextColor="@color/purple_200"
+        android:fitsSystemWindows="true"
+        app:tabIconTintMode="src_in"
+        app:tabIndicatorColor="@color/purple_200"
+        android:layout_weight="1"
+        >
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"/>  <!--test id-->
+
+        <!--ads:adUnitId="ca-app-pub-8144660836063113/4904106031"  formal id-->
+
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">20N9</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="maps_api_key">AIzaSyCjpI5-dGcJrWbt9YJAlbUr8WudThjflJk</string>
+
+    <string name="title_activity_maps_current_place">MapsActivityCurrentPlace</string>
+    <string name="hello_world">Hello Square World!</string>
+    <string-array name="locations">
+        <item>筠婷家</item>
+        <item>源</item>
+    </string-array>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string-array name="spn_map_type_list">
+        <item>一般街道圖</item>
+        <item>衛星影像地圖</item>
+        <item>地形圖</item>
+        <item>混合地圖</item>
+    </string-array>
+</resources>
